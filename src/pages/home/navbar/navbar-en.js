@@ -44,7 +44,7 @@ function NavigationEN() {
                 to="/about"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                About
+                About Me
               </NavLink>
             </Nav.Link>
             <Nav.Link className="link">
