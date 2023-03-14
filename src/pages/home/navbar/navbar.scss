@@ -20,11 +20,15 @@
         text-decoration: none;
         color: #fff;
         font-size: 1rem;
-        padding: 1rem;
+        padding: 0.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100px;
+        &:hover {
+          border: 1px solid #d3d3d3;
+          border-radius: 15px;
+        }
       }
     }
   }
