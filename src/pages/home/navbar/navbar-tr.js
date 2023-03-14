@@ -1,16 +1,33 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navbar.scss";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { useState } from "react";
+import { GrLanguage } from "react-icons/gr";
+import { useLocation } from "react-router-dom";
 
-function Navigation() {
-  const [currentPage, setCurrentPage] = useState();
+function NavigationTR() {
+
+  const currentPath = useLocation().pathname;
+  var newPath = "";
+  if (currentPath === "/") {
+    newPath = "/en";
+  } else if (currentPath === "/hakkimda") {
+    newPath = "/about";
+  } else if (currentPath === "/iletisim") {
+    newPath = "/contact";
+  }
+
+  console.log(newPath);
 
   return (
     <Navbar collapseOnSelect expand="lg" sticky="top" className="nav-bar">
       <Container>
+        <button className="lang-btn">
+          <Link to={newPath}>
+            <GrLanguage />
+          </Link>
+        </button>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="collapse-btn"
@@ -48,4 +65,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default NavigationTR;
