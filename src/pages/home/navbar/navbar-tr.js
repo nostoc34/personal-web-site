@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "./navbar.scss";
+import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -7,7 +8,6 @@ import { GrLanguage } from "react-icons/gr";
 import { useLocation } from "react-router-dom";
 
 function NavigationTR() {
-
   const currentPath = useLocation().pathname;
   var newPath = "";
   if (currentPath === "/") {
@@ -18,8 +18,7 @@ function NavigationTR() {
     newPath = "/contact";
   }
 
-  console.log(newPath);
-
+  
   return (
     <Navbar collapseOnSelect expand="lg" sticky="top" className="nav-bar">
       <Container>
@@ -33,7 +32,7 @@ function NavigationTR() {
           className="collapse-btn"
         />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="links">
+          <Nav className="links" id="links-box">
             <Nav.Link className="link">
               <NavLink
                 to="/"

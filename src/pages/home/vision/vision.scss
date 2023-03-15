@@ -1,0 +1,64 @@
+.vision-cont {
+  text-align: center;
+  h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  .vision-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box {
+      position: relative;
+      border-radius: 15%;
+      .vision-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        border-radius: 10%;
+        margin: 2.5rem;
+        padding: 3rem;
+        min-width: 360px;
+        min-height: 440px;
+        backface-visibility: hidden;
+        svg {
+          width: 120px;
+          height: 120px;
+          color: #fff;
+          border-radius: 100px;
+          margin-bottom: 2rem;
+        }
+        h5 {
+          color: #fff;
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+        p {
+          color: #fff;
+          font-size: 2rem;
+        }
+      }
+      .col-front {
+        transition: 1s transform;
+      }
+      .col-back {
+        position: absolute;
+        bottom: 0;
+        transition: 1s transform;
+        transform: rotateY(-180deg);
+      }
+      &:hover {
+        .col-front {
+          transform: rotateY(180deg);
+        }
+        .col-back {
+          transform: rotateY(0deg);
+        }
+      }
+    }
+  }
+}
