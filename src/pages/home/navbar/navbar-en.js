@@ -25,7 +25,7 @@ function NavigationEN() {
     const handleScroll = () => {
       if (window.pageYOffset >= 200) {
         navbarRef.current.style.border = "1px solid #d3d3d3";
-        navbarRef.current.style.background = "rgba(211, 211, 211, 0.5)";
+        navbarRef.current.style.background = "rgba(211, 211, 211, 0.1)";
       } else {
         navbarRef.current.style.border = "none";
         navbarRef.current.style.background = "none";

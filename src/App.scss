@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 
 * {
   padding: 0;
@@ -8,38 +8,37 @@
   border: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 // $first-bg-color : #ffbe0b;
 // $second-bg-color : #fb5607;
 // $third-bg-color : #ff006e;
 // $fourth-bg-color : #8338ec;
 
-$first-bg-color : #FD841F;
-$second-bg-color : #E14D2A;
-$third-bg-color : #CD104D;
-$fourth-bg-color : #9C2C77;
+$first-bg-color: #fd841f;
+$second-bg-color: #e14d2a;
+$third-bg-color: #cd104d;
+$fourth-bg-color: #9c2c77;
 
 body {
-	background-color: $first-bg-color;
-	animation: change-background 16s linear infinite;
+  background-color: $first-bg-color;
+  animation: change-background 16s linear infinite;
+}
+
+@keyframes change-background {
+  0% {
+    background-color: $first-bg-color;
   }
-  
-  @keyframes change-background {
-	0% {
-	  background-color: $first-bg-color;
-	}
-	25% {
-	  background-color: $second-bg-color;
-	}
-	50% {
-	  background-color: $third-bg-color;
-	}
-	75% {
-	  background-color: $fourth-bg-color;
-	}
-	100% {
-	  background-color: $first-bg-color;
-	}
+  25% {
+    background-color: $second-bg-color;
   }
-  
+  50% {
+    background-color: $third-bg-color;
+  }
+  75% {
+    background-color: $fourth-bg-color;
+  }
+  100% {
+    background-color: $first-bg-color;
+  }
+}
