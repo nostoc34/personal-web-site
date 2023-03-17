@@ -10,22 +10,36 @@
   box-sizing: border-box;
   font-family: 'Dancing Script', cursive;
 }
+// $first-bg-color : #ffbe0b;
+// $second-bg-color : #fb5607;
+// $third-bg-color : #ff006e;
+// $fourth-bg-color : #8338ec;
+
+$first-bg-color : #FD841F;
+$second-bg-color : #E14D2A;
+$third-bg-color : #CD104D;
+$fourth-bg-color : #9C2C77;
 
 body {
-	background: linear-gradient(-45deg, #ffbe0b, #fb5607, #ff006e, #8338ec);
-	background-size: 1000% 1000%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-}
-
-@keyframes gradient {
+	background-color: $first-bg-color;
+	animation: change-background 16s linear infinite;
+  }
+  
+  @keyframes change-background {
 	0% {
-		background-position: 0% 50%;
+	  background-color: $first-bg-color;
+	}
+	25% {
+	  background-color: $second-bg-color;
 	}
 	50% {
-		background-position: 100% 50%;
+	  background-color: $third-bg-color;
+	}
+	75% {
+	  background-color: $fourth-bg-color;
 	}
 	100% {
-		background-position: 0% 50%;
+	  background-color: $first-bg-color;
 	}
-}
+  }
+  

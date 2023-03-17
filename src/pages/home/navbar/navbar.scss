@@ -5,16 +5,18 @@
   .collapse-btn {
     margin-left: auto;
     color: #fff;
+    border: 1px solid #fff;
   }
   .links {
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 45px;
     .link {
       .active {
         border: 1px solid #d3d3d3;
-        border-radius: 15px;
+        border-radius: 35px;
         background: rgba(211, 211, 211, 0.3);
       }
       a {
@@ -28,7 +30,7 @@
         width: 150px;
         &:hover {
           border: 1px solid #d3d3d3;
-          border-radius: 15px;
+          border-radius: 35px;
         }
       }
     }
@@ -37,8 +39,8 @@
 
 .lang-btn {
   background: transparent;
-  position: absolute;
-  right: 3rem;
+  position: sticky;
+  left: 100rem;
   svg {
     height: 20px;
     width: 20px;
