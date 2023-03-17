@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import "./App.scss";
 import MainContext from "./MainContext";
 import HomeTR from "./pages/home/home-tr";
@@ -10,8 +10,7 @@ import ContactEN from "./pages/contact/contact-en";
 
 function App() {
 
-  const data = {
-  };
+  const data = {};
 
   return (
     <MainContext.Provider value={data}>
