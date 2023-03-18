@@ -1,15 +1,23 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 5rem 0;
-    margin-bottom: 7.5rem;
-    h1 {
-        font-size: 8rem;
-        color: #fff;
-    }
-    h3 {
-        font-size: 7rem;
-        color: #fff;
-    }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 13% 0 13% 0;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 1s ease;
+  h1 {
+    font-size: 8rem;
+    font-weight: bolder;
+    color: #6db193;
+  }
+  h3 {
+    font-size: 7rem;
+    color: #6db193;
+    font-weight: bold;
+  }
+}
+.loaded {
+    opacity: 1;
+    transform: translateY(0%);
 }

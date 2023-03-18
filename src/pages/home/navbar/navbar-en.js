@@ -38,12 +38,7 @@ function NavigationEN() {
   }, []);
 
   return (
-    <Navbar collapseOnSelect expand="lg" sticky="top" className="nav-bar">
-      <button className="lang-btn">
-        <Link to={newPath}>
-          <GrLanguage />
-        </Link>
-      </button>
+    <Navbar collapseOnSelect expand="lg" className="nav-bar">
       <Container>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -77,6 +72,11 @@ function NavigationEN() {
                 Contact
               </NavLink>
             </Nav.Link>
+            <button className="lang-btn">
+              <Link to={newPath}>
+                <GrLanguage />
+              </Link>
+            </button>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,15 +1,21 @@
 import "./header.scss";
 import "./header-ani-tr.scss";
 import { Container } from "react-bootstrap";
+import { useState, useEffect } from "react";
 
 function HeaderTR() {
-    return (
-        <Container fluid className="header">
-            <h1>Selam.</h1>
-            <h1>Ben Selim.</h1>
-            <h1>Geliştiriyorum :)</h1>
-        </Container>
-    )
-};
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
+
+  return (
+    <Container fluid className={`header ${loaded ? 'loaded' : ''}`}>
+      <h1>Selam. Ben Selim.</h1>
+      <h3>Geliştiriyorum :)</h3>
+    </Container>
+  );
+}
 
 export default HeaderTR;

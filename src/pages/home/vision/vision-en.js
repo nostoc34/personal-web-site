@@ -4,7 +4,7 @@ import { BiTimeFive, BiCheck, BiCodeAlt } from "react-icons/bi";
 
 function VisionEN() {
   return (
-    <Container className="vision-cont">
+    <Container fluid className="vision-cont">
       <h1>VISION</h1>
       <Row className="vision-row">
         <Col className="box">

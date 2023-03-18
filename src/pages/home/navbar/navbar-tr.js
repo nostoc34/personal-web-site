@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { GrLanguage } from "react-icons/gr";
-import {BiMenu} from "react-icons/bi";
+import { BiMenu } from "react-icons/bi";
 import { useLocation } from "react-router-dom";
 
 function NavigationTR() {
@@ -38,17 +38,15 @@ function NavigationTR() {
   }, []);
 
   return (
-    <Navbar collapseOnSelect expand="lg" sticky="top" className="nav-bar">
-      <button className="lang-btn">
-          <Link to={newPath}>
-            <GrLanguage />
-          </Link>
-        </button>
-      <Container>        
+    <Navbar collapseOnSelect expand="lg" className="nav-bar">
+      <Container>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="collapse-btn"
-        > <BiMenu/> </Navbar.Toggle>
+        >
+          {" "}
+          <BiMenu />{" "}
+        </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="links" id="links-box" ref={navbarRef}>
             <Nav.Link className="link">
@@ -75,6 +73,11 @@ function NavigationTR() {
                 İletişim
               </NavLink>
             </Nav.Link>
+            <button className="lang-btn">
+              <Link to={newPath}>
+                <GrLanguage />
+              </Link>
+            </button>
           </Nav>
         </Navbar.Collapse>
       </Container>
