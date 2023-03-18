@@ -1,5 +1,4 @@
 import "./header.scss";
-import "./header-ani-tr.scss";
 import { Container } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
