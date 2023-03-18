@@ -43,3 +43,25 @@ body {
   }
 }
 
+// body {
+//   background: linear-gradient(to bottom, $first-bg-color, $second-bg-color);
+//   animation: bg-move 16s ease-in-out infinite;
+// }
+
+// @keyframes gradient {
+//   0% {
+//     background: linear-gradient(to right, $first-bg-color, $second-bg-color);
+//   }
+//   25% {
+//     background: linear-gradient(to left, $second-bg-color, $third-bg-color);
+//   }
+//   50% {
+//     background: linear-gradient(to right, $third-bg-color, $fourth-bg-color);
+//   }
+//   75% {
+//     background: linear-gradient(to left, $fourth-bg-color, $first-bg-color);
+//   }
+//   100% {
+//     background: linear-gradient(to right, $first-bg-color, $second-bg-color);
+//   }
+// }
