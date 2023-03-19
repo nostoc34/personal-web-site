@@ -1,19 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
 .header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 13% 0 13% 0;
+  padding: 13% 0 14% 0;
   opacity: 0;
   transform: translateY(-100%);
   transition: all 1s ease;
   h1 {
+    font-family: "Dancing Script", cursive;
     font-size: 8rem;
     font-weight: bolder;
-    color: #6db193;
+    color: #295F4E;
   }
   h3 {
+    font-family: "Dancing Script", cursive;
     font-size: 7rem;
-    color: #6db193;
+    color: #295F4E;
     font-weight: bold;
   }
 }

@@ -12,7 +12,7 @@ function VisionTR() {
       const element = document.getElementById('scroll-element');
       const elementTopOffset = element.offsetTop;
       const elementHeight = element.clientHeight;
-      const elementVisibleHeight = elementHeight * 0.10; // elementin yüzde 15'lik kısmı
+      const elementVisibleHeight = elementHeight * 0.15;
       const elementVisibleTopOffset = elementTopOffset + elementVisibleHeight;
       const currentScrollPos = window.pageYOffset + window.innerHeight;
       const isElementVisible = currentScrollPos >= elementVisibleTopOffset;

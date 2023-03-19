@@ -1,7 +1,7 @@
 .scroll-element {
   opacity: 0;
   transform: scale(0.1);
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
 }
 
 .scroll-element.active {
@@ -33,7 +33,7 @@
         justify-content: center;
         box-shadow: 0 0 15px 15px rgba(109, 177, 147, 0.5);
         border-radius: 10%;
-        padding: 3rem;
+        padding: 4rem;
         min-height: 440px;
         backface-visibility: hidden;
         background: #295F4E;
@@ -53,7 +53,7 @@
         }
         p {
           color: #fff;
-          font-size: 2rem;
+          font-size: 1.5rem;
           line-height: 2;
         }
       }
