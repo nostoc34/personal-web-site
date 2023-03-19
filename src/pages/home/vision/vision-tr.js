@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BiTimeFive, BiCheck, BiCodeAlt } from "react-icons/bi";
 
 function VisionTR() {
+  
   return (
       <Container fluid className="vision-cont">
         <h1>VİZYON</h1>
