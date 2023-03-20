@@ -9,7 +9,7 @@ function BannerEN() {
     <Container fluid className="banner">
       <img src={banner} alt="banner" className="banner-img" />
       <div className="saying">
-        <h1>"Technology is the campfire around which we tell our stories."</h1>
+        <h1>"Technology is the campfire around which <br/> we tell our stories."</h1>
         <h5>Laurie Anderson</h5>
       </div>
       <div className="to-contact">

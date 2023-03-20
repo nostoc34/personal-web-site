@@ -30,6 +30,8 @@ function VisionEN() {
     >
       <Container fluid className="vision-cont">
         <h1>VISION</h1>
+        <p className="saying">"Those who do not have a goal they want to reach do not enjoy working."</p>
+        <p className="emile">Émile Roux</p>
         <Row className="vision-row">
           <Col className="box">
             <div className="vision-col col-front first-vis">

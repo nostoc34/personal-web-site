@@ -30,6 +30,8 @@ function VisionTR() {
     >
       <Container fluid className="vision-cont">
         <h1>VİZYON</h1>
+        <p className="saying">"Ulaşmak istedikleri bir hedefi olmayanlar, çalışmaktan zevk almazlar."</p>
+        <p className="emile">Émile Roux</p>
         <Row className="vision-row">
           <Col className="box">
             <div className="vision-col col-front first-vis">

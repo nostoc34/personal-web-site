@@ -9,7 +9,7 @@ function BannerTR() {
     <Container fluid className="banner">
       <img src={banner} alt="banner" className="banner-img" />
       <div className="saying">
-        <h1>"Teknoloji, hikayelerimizi anlattığımız kamp ateşidir."</h1>
+        <h1>"Teknoloji, hikayelerimizi anlattığımız <br/> kamp ateşidir."</h1>
         <h5>Laurie Anderson</h5>
       </div>
       <div className="to-contact">

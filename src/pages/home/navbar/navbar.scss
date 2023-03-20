@@ -1,11 +1,10 @@
 .nav-bar {
   width: 100%;
-  background: #295F4E;
-  padding: 0.7rem;
+  padding: 1rem;
   .collapse-btn {
     margin-left: auto;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #295F4E;
+    border: 1px solid #295F4E;
   }
   .links {
     margin: auto;
@@ -13,18 +12,23 @@
     justify-content: center;
     align-items: center;
     border-radius: 45px;
+    background: #295F4E;
     .link {
       .active {
         border: 1px solid #d3d3d3;
         border-radius: 35px;
         background: #fff;
         color: #295F4E;
+        &:hover {
+          color: #fff;
+          background: #6db193;
+        }
       }
       a {
         text-decoration: none;
         color: #fff;
         font-size: 1.2rem;
-        padding: 1rem;
+        padding: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -46,7 +50,7 @@
     height: 20px;
     width: 20px;
     path {
-      stroke: #fff;
+      stroke: #295F4E;
     }
   }
 }
