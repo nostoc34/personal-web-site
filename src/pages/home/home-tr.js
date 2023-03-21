@@ -6,16 +6,18 @@ import SkillsTR from "./skills/skills-tr";
 import Footer from "./footer/footer";
 
 function HomeTR() {
-    return (
-        <div>
-            <NavigationTR />
-            <HeaderTR />
-            <BannerTR />
-            <VisionTR />
-            <SkillsTR />
-            <Footer />
-        </div>
-    );
+  
+
+  return (
+    <div>
+        <NavigationTR />
+        <HeaderTR />
+        <BannerTR />
+        <VisionTR />
+        <SkillsTR />
+        <Footer />
+      </div>
+  );
 }
 
 export default HomeTR;

@@ -27,6 +27,7 @@
     color: #6db193;
     font-size: 18px;
     font-weight: 500;
+    margin-bottom: 2rem;
   }
   .vision-row {
     display: flex;
@@ -35,7 +36,11 @@
     .box {
       position: relative;
       border-radius: 15%;
-      margin: 2.5rem;
+      margin: 1.7rem;
+      max-width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       .vision-col {
         display: flex;
         flex-direction: column;
@@ -43,11 +48,11 @@
         justify-content: center;
         box-shadow: 0 0 15px 15px rgba(41, 95, 78, 0.7);
         border-radius: 10%;
-        padding: 4rem;
-        min-height: 440px;
+        padding: 3rem;
+        min-height: 400px;
         backface-visibility: hidden;
         background: #6db193;
-        width: 100%;
+        width: 350px;
         svg {
           width: 120px;
           height: 120px;
@@ -69,13 +74,13 @@
       }
       .col-front {
         transition: 1s transform;
+        min-width: 350px;
       }
       .col-back {
         position: absolute;
         bottom: 0;
         transition: 1s transform;
         transform: rotateY(-180deg);
-        max-width: 606px;
       }
       &:hover {
         .col-front {
@@ -83,6 +88,47 @@
         }
         .col-back {
           transform: rotateY(0deg);
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .vision-cont {
+    h1 {
+      font-size: 3rem;
+    }
+    .saying {
+      font-size: 16px;
+    }
+    .emile {
+      font-size: 14px;
+    }
+    .vision-row {
+      .box {
+        max-width: 270px;
+        .vision-col {
+          min-height: 300px;
+          margin-bottom: 2rem;
+          width: 270px;
+          svg {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 2rem;
+          }
+          h5 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+        .col-front {
+          min-width: 270px;
         }
       }
     }

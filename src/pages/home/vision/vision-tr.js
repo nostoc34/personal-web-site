@@ -40,7 +40,7 @@ function VisionTR() {
             </div>
             <div className="vision-col col-back first-vis">
               <p>
-                Yeni teknolojileri keşfederek sürekli gelişmek ve geliştirmek.
+                Yeni teknolojileri <br/> keşfederek sürekli gelişmek ve geliştirmek.
               </p>
             </div>
           </Col>

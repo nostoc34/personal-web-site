@@ -7,12 +7,12 @@
   padding: 13% 0 14% 0;
   opacity: 0;
   transform: translateY(-100%);
-  transition: all 1.5s ease;
+  transition: all 1.5s;
   h1 {
     font-family: "Dancing Script", cursive;
     font-size: 8rem;
     font-weight: bolder;
-    color: #295F4E;
+    color: #295F4E;    
   }
   h3 {
     font-family: "Dancing Script", cursive;
@@ -24,4 +24,16 @@
 .loaded {
     opacity: 1;
     transform: translateY(0%);
+}
+
+
+@media screen and (max-width: 400px) {
+  .header {
+    h1 {
+      font-size: 5rem;
+    }
+    h3 {
+      font-size: 3.5rem;
+    }
+  }
 }
