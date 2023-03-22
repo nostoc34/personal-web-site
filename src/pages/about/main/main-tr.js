@@ -22,8 +22,8 @@ function MainTR() {
           <h2>Ben Selim.</h2>
           <p>
             1997'de Ankara'da doğdum. Liseyi bitirdikten sonra İngilizce Öğretmenliği bölümünü kazandım.
-            Orada iki sene geçirdikten sonra, okulu bırakma kararı aldım. Bu süreçte programlama
-            ile tanıştım ve tekrar üniversite sınavına girdim. Şuanda Bilgisayar Mühendisliği
+            Orada iki sene geçirdikten sonra okulu bırakma kararı aldım. Bu süreçte programlama
+            ile tanıştım ve tekrar üniversite sınavına girdim. Şu anda Bilgisayar Mühendisliği
             3. sınıf öğrencisi ve front-end gelişitirici olarak hayatıma devam ediyorum. 
           </p>
         </div>
