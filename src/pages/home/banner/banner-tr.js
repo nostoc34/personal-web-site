@@ -1,6 +1,5 @@
 import "./banner.scss";
 import { Container } from "react-bootstrap";
-import banner from "../../../assets/images/bannerBg.jpg";
 import { AiFillFire } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 
