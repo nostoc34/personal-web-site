@@ -123,7 +123,7 @@ function HobbiesTR() {
               çizim tarzı beni içine çekti. Hala animeleri çok sevsem de son
               yıllarda anime izlemekten çok manga okumaya yöneldim. Uzun
               zamandır güncellemedim ama{" "}
-              <a href="https://myanimelist.net/profile/Nostoc">MyAnimeList </a>
+              <a href="https://myanimelist.net/profile/Nostoc" target="blank">MyAnimeList </a>
               hesabıma göz atabilirsiniz.
             </p>
           </div>

@@ -124,7 +124,7 @@ function HobbiesEN() {
               love anime, in recent years I have tended to read manga rather
               than watching anime. I haven't updated in a long time but you can
               check out my{" "}
-              <a href="https://myanimelist.net/profile/Nostoc">MyAnimeList </a>{" "}
+              <a href="https://myanimelist.net/profile/Nostoc" target="blank">MyAnimeList </a>{" "}
               account.
             </p>
           </div>
