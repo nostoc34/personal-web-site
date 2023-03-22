@@ -1,0 +1,25 @@
+.cbanner {
+    background: url("../../../assets/images/contactBg.jpg");
+    background-attachment: fixed;
+    padding: 10% 15%;
+    margin-bottom: 50px;
+    text-align: center;
+    h1 {
+        color: #fff;
+        font-size: 80px;
+    }
+    h2 {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cbanner {
+        h1 {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.form {
+    padding: 5% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .input-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-input {
+        border: 1px solid #6db193;
+        padding: 5px;
+        margin: 1rem;
+        background: rgba(109, 177, 147, 0.2);
+        color: #000;
+        flex: 1;
+    }
+    #send-btn {
+        padding: 10px;
+        font-weight: bold;
+        background: #295f4e;
+        color: #fff;
+        &:hover {
+            background: #fff;
+            color: #295f4e;
+        }
+    }
+    .more-info {
+        text-align: center;
+    }
+    .message {
+        textarea {
+            min-height: 200px;
+        }
+    }
+}

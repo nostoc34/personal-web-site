@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
     p {
-        color: #ccc;
+        color: #fff;
         font-size: 2rem;
         font-weight: bold;
     }
@@ -54,16 +54,16 @@
       font-weight: 500;
       border: 1px solid #295F4E;
       border-radius: 15px;
-      background: #ccc;
+      background: #fff;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 1rem;
       width: 200px;
       &:hover {
-        color: #ccc;
+        color: #fff;
         background: #295F4E;
-        border: 1px solid #ccc;
+        border: 1px solid #fff;
       }
     }
   }
