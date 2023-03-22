@@ -122,10 +122,7 @@ function HobbiesEN() {
               I started watching anime in high school. The drawing style, which
               is different from other animations, drew me in. Although I still
               love anime, in recent years I have tended to read manga rather
-              than watching anime. I haven't updated in a long time but you can
-              check out my{" "}
-              <a href="https://myanimelist.net/profile/Nostoc" target="blank">MyAnimeList </a>{" "}
-              account.
+              than watching anime.
             </p>
           </div>
           <div className="hobby-col anime-img">

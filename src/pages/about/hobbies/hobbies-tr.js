@@ -121,10 +121,7 @@ function HobbiesTR() {
             <p>
               Anime izlemeye lisede başladım. Diğer animasyonlardan farklı olan
               çizim tarzı beni içine çekti. Hala animeleri çok sevsem de son
-              yıllarda anime izlemekten çok manga okumaya yöneldim. Uzun
-              zamandır güncellemedim ama{" "}
-              <a href="https://myanimelist.net/profile/Nostoc" target="blank">MyAnimeList </a>
-              hesabıma göz atabilirsiniz.
+              yıllarda anime izlemekten çok manga okumaya yöneldim.
             </p>
           </div>
           <div className="hobby-col anime-img">
