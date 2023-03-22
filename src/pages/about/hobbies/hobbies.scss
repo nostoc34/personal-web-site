@@ -104,6 +104,9 @@
 
 @media screen and (max-width: 1000px) {
   .hobbies {
+    h1 {
+      font-size: 3rem;
+    }
     .hobby-cont {
       .hobby-row {
         flex-direction: column;
