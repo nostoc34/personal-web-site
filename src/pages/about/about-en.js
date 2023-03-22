@@ -1,6 +1,6 @@
 import NavigationEN from "../home/navbar/navbar-en";
-import Footer from "../home/footer/footer";
 import MainEN from "./main/main-en";
+import Footer from "../home/footer/footer";
 
 function AboutEN() {
     return (

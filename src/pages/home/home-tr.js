@@ -14,7 +14,6 @@ function HomeTR() {
         <HeaderTR />
         <BannerTR />
         <VisionTR />
-        <SkillsTR />
         <Footer />
       </div>
   );

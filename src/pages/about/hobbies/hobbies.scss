@@ -1,0 +1,55 @@
+.hobbies {
+  padding: 5% 15%;
+  text-align: center;
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #295f4e;
+  }
+  .hobby-cont {
+    .hobby-row {
+        display: flex;
+        border: 3px solid #6db193;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        .hobby-col {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 400px;
+                max-width: 100%;
+                height: auto;
+                transition: transform 1s;
+                &:hover {
+                    transform: scale(2.2);
+                }
+            }
+        }
+        .hobby-p {
+            flex: 1;
+            background: #6db193;
+            border: 3px solid #fff;            
+            color: #fff;
+        }
+        .cooking-p {
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        .anime-p {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        .cooking-img {
+            padding: 20px;
+            background: #fff;
+            border-radius: 30px;
+        }
+        .anime-img {
+            padding: 20px;
+            background: #fff;
+            border-radius: 30px;
+        }
+    }
+  }
+}

@@ -12,7 +12,7 @@ function MainEN() {
 
   return (
     <Container fluid className="main">
-      <h1 className={`${loaded ? 'loaded-h1' : ''}`}>Who Am I?</h1>
+      <h1 className={`${loaded ? 'loaded-h1' : ''}`}>WHO?</h1>
       <div className="main-box">
         <div className={`pfp ${loaded ? 'loaded-pfp' : ''}`}>
           <img src={profilepic} alt="pfp" />

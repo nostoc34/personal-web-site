@@ -12,7 +12,7 @@ function MainTR() {
 
   return (
     <Container fluid className="main">
-      <h1 className={`${loaded ? 'loaded-h1' : ''}`}>Ben Kimim?</h1>
+      <h1 className={`${loaded ? 'loaded-h1' : ''}`}>KİM?</h1>
       <div className="main-box">
         <div className={`pfp ${loaded ? 'loaded-pfp' : ''}`}>
           <img src={profilepic} alt="pfp" />
