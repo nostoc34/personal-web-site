@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 function BannerTR() {
   return (
     <Container fluid className="banner">
-      <img src={banner} alt="banner" className="banner-img" />
+      
       <div className="saying">
         <h1>"Teknoloji, hikayelerimizi anlattığımız <br/> kamp ateşidir."</h1>
         <h5>Laurie Anderson</h5>
