@@ -3,37 +3,55 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .social-col {
+  .social-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    .social-icon {
-      width: 150px;
-      height: 150px;
-      margin: 25px;
-      color: #6db193;
-    }
-    .github:hover {
+    .social-col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .social-icon {
+        width: 120px;
+        height: 120px;
+        margin: 25px;
+        color: #6db193;
+      }
+      .github:hover {
         color: #333;
-    }
-    .linkedin:hover {
+      }
+      .linkedin:hover {
         color: #0a66c2;
-    }
-    .instagram:hover {
+      }
+      .instagram:hover {
         color: #e1306c;
-    }
-    .twitter:hover {
+      }
+      .twitter:hover {
         color: #1da1f2;
+      }
     }
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .social {
-    .social-col {
-      .social-icon {
-        width: 75px;
-        height: 75px;
+    flex-direction: row;
+    .social-row {
+      flex-direction: row;
+      .social-col {
+        flex-direction: row;
+      }
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .social {
+    .social-row {
+      .social-col {
+        .social-icon {
+          width: 75px;
+          height: 75px;
+        }
       }
     }
   }

@@ -10,7 +10,7 @@ import {
 function Socials() {
   return (
     <Container fluid className="social">
-      <Row>
+      <Row className="social-row">
         <Col className="social-col">
           <a href="https://github.com/nostoc34" target="blank">
             <AiOutlineGithub className="social-icon github" />
@@ -25,7 +25,7 @@ function Socials() {
           </a>
         </Col>
       </Row>
-      <Row>
+      <Row className="social-row">
         <Col className="social-col">
           <a href="https://www.instagram.com/mselimyaman/" target="blank">
             <AiFillInstagram className="social-icon instagram" />
