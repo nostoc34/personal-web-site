@@ -1,7 +1,7 @@
-import NavigationTR from "../home/navbar/navbar-tr";
+import NavigationTR from "../../layout/navbar/navbar-tr";
 import MainTR from "./main/main-tr";
 import HobbiesTR from "./hobbies/hobbies-tr";
-import Footer from "../home/footer/footer";
+import Footer from "../../layout/footer/footer";
 import { ScrollRestoration } from "react-router-dom";
 
 function AboutTR() {

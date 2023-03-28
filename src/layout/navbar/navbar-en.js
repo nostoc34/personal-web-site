@@ -20,7 +20,7 @@ function NavigationEN() {
 
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bar" sticky="top">
-      <Container>
+      <Container fluid>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="collapse-btn"

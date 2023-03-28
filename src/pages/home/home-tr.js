@@ -1,8 +1,8 @@
-import NavigationTR from "./navbar/navbar-tr";
+import NavigationTR from "../../layout/navbar/navbar-tr";
 import HeaderTR from "./header/header-tr";
 import BannerTR from "./banner/banner-tr";
 import VisionTR from "./vision/vision-tr";
-import Footer from "./footer/footer";
+import Footer from "../../layout/footer/footer";
 import { ScrollRestoration } from "react-router-dom";
 
 function HomeTR() {

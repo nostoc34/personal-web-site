@@ -1,6 +1,6 @@
 .nav-bar {
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0;
   .collapse-btn {
     margin-left: auto;
     color: #295F4E;
@@ -55,8 +55,12 @@
   }
 }
 
-@media screen and (max-width: 850px) {
-  .nav-bar {
-    padding: 1rem 5rem;
+@media screen and (max-width: 995px) {
+  .lang-btn {
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
   }
 }

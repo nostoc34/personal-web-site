@@ -1,7 +1,7 @@
-import NavigationEN from "../home/navbar/navbar-en";
+import NavigationEN from "../../layout/navbar/navbar-en";
 import MainEN from "./main/main-en";
 import HobbiesEN from "./hobbies/hobbies-en";
-import Footer from "../home/footer/footer";
+import Footer from "../../layout/footer/footer";
 import { ScrollRestoration } from "react-router-dom";
 
 function AboutEN() {
