@@ -19,7 +19,7 @@ function NavigationTR() {
   }
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="nav-bar">
+    <Navbar collapseOnSelect expand="lg" className="nav-bar" sticky="top">
       <Container>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
