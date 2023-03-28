@@ -24,7 +24,7 @@ function MainTR() {
             1997'de Ankara'da doğdum. Liseyi bitirdikten sonra İngilizce Öğretmenliği bölümünü kazandım.
             Orada iki sene geçirdikten sonra okulu bırakma kararı aldım. Bu süreçte programlama
             ile tanıştım ve tekrar üniversite sınavına girdim. Şu anda Bilgisayar Mühendisliği
-            3. sınıf öğrencisi ve front-end gelişitirici olarak hayatıma devam ediyorum. 
+            3. sınıf öğrencisi ve front-end geliştirici olarak hayatıma devam ediyorum. 
           </p>
         </div>
       </div>
