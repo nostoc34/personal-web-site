@@ -1,4 +1,3 @@
-import "./home.scss";
 import NavigationTR from "./navbar/navbar-tr";
 import HeaderTR from "./header/header-tr";
 import BannerTR from "./banner/banner-tr";
@@ -9,7 +8,7 @@ function HomeTR() {
   
 
   return (
-    <div id="home">
+    <div>
         <NavigationTR />
         <HeaderTR />
         <BannerTR />
