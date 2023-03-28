@@ -7,12 +7,10 @@ function CMainEN() {
   return (
     <Container className="cmain">
       <Row>
-        <Col className="main-col">
-          <FormEN />
-        </Col>
-        <Col className="main-col">
-          <Socials/>
-        </Col>
+        <FormEN />
+      </Row>
+      <Row>
+        <Socials />
       </Row>
     </Container>
   );

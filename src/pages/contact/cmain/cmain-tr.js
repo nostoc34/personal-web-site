@@ -7,12 +7,10 @@ function CMainTR() {
   return (
     <Container className="cmain">
       <Row>
-        <Col className="main-col">
-          <FormTR />
-        </Col>
-        <Col className="main-col">
-          <Socials />
-        </Col>
+        <FormTR />
+      </Row>
+      <Row>
+        <Socials />
       </Row>
     </Container>
   );

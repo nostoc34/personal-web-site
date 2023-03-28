@@ -35,7 +35,7 @@ function FormTR() {
 
   return (
     <Container fluid className="form">
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} style={{width:"750px"}}>
         <Row className="name">
           <Col className="input-col">
             <input

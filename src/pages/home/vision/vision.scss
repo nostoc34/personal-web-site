@@ -11,7 +11,7 @@
 
 .vision-cont {
   text-align: center;
-  padding: 5% 15%;
+  padding: 5% 10%;
   h1 {
     font-size: 4rem;
     font-weight: bold;
@@ -37,8 +37,8 @@
     .box {
       position: relative;
       border-radius: 15%;
-      margin: 1.7rem;
-      max-width: 350px;
+      margin: 1.3rem;
+      max-width: 300px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -54,7 +54,7 @@
         min-height: 400px;
         backface-visibility: hidden;
         background: #6db193;
-        width: 350px;
+        width: 300px;
         svg {
           width: 120px;
           height: 120px;
@@ -76,7 +76,7 @@
       }
       .col-front {
         transition: 1s transform;
-        min-width: 350px;
+        min-width: 300px;
       }
       .col-back {
         position: absolute;
