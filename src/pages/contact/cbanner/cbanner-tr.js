@@ -1,10 +1,18 @@
 import "./cbanner.scss";
+import { useState, useEffect } from "react";
 
 function CBannerTR() {
+
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
+
   return (
-    <div className="cbanner">
-      <h2>KAMP ATEŞİNİ YAKMAYA HAZIR MISIN?</h2>
-      <h1>HADİ O ZAMAN! ANLAT HİKAYENİ!</h1>
+    <div className={`cbanner ${loaded ? 'loaded-cbanner' : ''}`}>
+      <h3>BENİMLE ÇALIŞMAK İSTER MİSİN?</h3>
+      <h1>DOĞRU KARAR.</h1>
     </div>
   );
 }

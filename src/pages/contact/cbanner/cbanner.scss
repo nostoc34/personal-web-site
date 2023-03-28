@@ -1,25 +1,31 @@
 .cbanner {
-    background: url("../../../assets/images/contactBg.jpg");
-    background-attachment: fixed;
-    padding: 10% 15%;
-    margin-bottom: 50px;
-    text-align: center;
-    h1 {
-        color: #fff;
-        font-size: 80px;
-    }
-    h2 {
-        color: #fff;
-    }
+  background: url("../../../assets/images/contactBg.jpg");
+  background-attachment: fixed;
+  padding: 10% 15%;
+  margin-bottom: 50px;
+  text-align: center;
+  filter: blur(10px);
+  transition: filter 1.5s ease-in-out;
+  h1 {
+    color: #fff;
+    font-size: 80px;
+  }
+  h3 {
+    color: #fff;
+  }
+}
+
+.loaded-cbanner {
+  filter: blur(0);
 }
 
 @media screen and (max-width: 700px) {
-    .cbanner {
-        h1 {
-            font-size: 20px;
-        }
-        h2 {
-            font-size: 15px;
-        }
+  .cbanner {
+    h1 {
+      font-size: 20px;
     }
+    h2 {
+      font-size: 15px;
+    }
+  }
 }
