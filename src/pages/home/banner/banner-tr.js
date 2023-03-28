@@ -12,7 +12,7 @@ function BannerTR() {
         <h5>Laurie Anderson</h5>
       </div>
       <div className="to-contact">
-        <p>Siz de hikayelerinizi anlatmak ister misiniz??</p>
+        <p>Siz de hikayelerinizi anlatmak ister misiniz?</p>
         <NavLink to="/iletisim">
           <AiFillFire />
         </NavLink>
