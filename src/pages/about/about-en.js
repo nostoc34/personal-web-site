@@ -11,7 +11,7 @@ function AboutEN() {
       <NavigationEN />
       <MainEN />
       <HobbiesEN />
-      <Footer />
+      <Footer rights="All rights reserved."/>
     </div>
   );
 }

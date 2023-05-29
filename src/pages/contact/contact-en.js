@@ -11,7 +11,7 @@ function ContactEN() {
       <NavigationEN />
       <CBannerEN />
       <CMainEN />
-      <Footer />
+      <Footer rights="All rights reserved."/>
     </div>
   );
 }

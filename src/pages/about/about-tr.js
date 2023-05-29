@@ -11,7 +11,7 @@ function AboutTR() {
       <NavigationTR />
       <MainTR />
       <HobbiesTR />
-      <Footer />
+      <Footer rights="Tüm hakları saklıdır."/>
     </div>
   );
 }

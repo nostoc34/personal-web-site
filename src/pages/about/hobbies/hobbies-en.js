@@ -53,7 +53,7 @@ function HobbiesEN() {
 
   return (
     <Container fluid className="hobbies">
-      <h1>HOBİLERİM</h1>
+      <h1>MY HOBBIES</h1>
       <div className="hobby-cont">
         <div className="hobby-row">
           <div className="hobby-col cooking-img">

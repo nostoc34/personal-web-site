@@ -13,7 +13,7 @@ function HomeTR() {
       <HeaderTR />
       <BannerTR />
       <VisionTR />
-      <Footer />
+      <Footer rights="Tüm hakları saklıdır."/>
     </div>
   );
 }

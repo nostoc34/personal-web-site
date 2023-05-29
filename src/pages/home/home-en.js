@@ -13,7 +13,7 @@ function HomeEN() {
       <HeaderEN />
       <BannerEN />
       <VisionEN />
-      <Footer />
+      <Footer rights="All rights reserved."/>
     </div>
   );
 }

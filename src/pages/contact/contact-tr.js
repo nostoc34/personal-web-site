@@ -11,7 +11,7 @@ function ContactTR() {
       <NavigationTR />
       <CBannerTR />
       <CMainTR />
-      <Footer />
+      <Footer rights="Tüm hakları saklıdır."/>
     </div>
   );
 }
